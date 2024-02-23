@@ -12,7 +12,7 @@ fun buggyFunction(str: String){
     println("Hello!")
   } else if (str == "goodbye"){
     println("Goodbye!")
-  } else if (str == "hello"){ // Bug - Duplicate condition
+  } else if (str == "hello again"){ // Bug - Duplicate condition
     println("Hello again!")
   }
 }
